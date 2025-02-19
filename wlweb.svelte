@@ -21,7 +21,7 @@
             content: `New Whitelisted application received!\n**Age:** ${age}\n**Steam:** ${steam}\n**Discord:** ${discord}\n**YOUR-QUESTION-HERE:** ${question1}\n**YOUR-QUESTION-HERE:** ${question2}\n**YOUR-QUESTION-HERE:** ${question3}\n**YOUR-QUESTION-HERE:** ${question4}\n**YOUR-QUESTION-HERE:** ${question5}`
         };
 
-        const webhookURL = 'https://discord.com/api/webhooks/1341845924774936707/6YD4i_mDDrAaj22Nm2V86oL7FfKmuP5tEdedl4HIBr9twvXQPQ6j0Ml5cbLp4wn8jbHL'; // Replace with your actual URL
+        const webhookURL = 'https://discord.com/api/webhooks/YOUR_WEBHOOK'; // Replace with your actual WEBHOOK
 
         try {
             const response = await fetch(webhookURL, {
